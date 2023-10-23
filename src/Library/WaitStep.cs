@@ -7,7 +7,7 @@
 namespace Full_GRASP_And_SOLID
 {
     // Agregada por OCP
-    public class WaitStep : BaseStep
+    public class WaitStep : BaseStep,IPrintable
     {
         public WaitStep(string descrption, int time)
             : base(time)
